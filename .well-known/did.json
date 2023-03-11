@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:kapilvgit.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:kapilvgit.github.io#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:kapilvgit.github.io",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "3xoRi1MnLtXb-JOPZJzHJmz8Gg5ZP-Zo5Z5thE8iyDM"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:kapilvgit.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:kapilvgit.github.io#owner"
+  ]
+}
