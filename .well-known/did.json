@@ -18,14 +18,10 @@
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "3xoRi1MnLtXb-JOPZJzHJmz8Gg5ZP-Zo5Z5thE8iyDM"
+        "x": "ktc-aKt5boVB6fi9c51WRQNz4B5L0OdMqHVQHhKouvg"
       }
     }
   ],
-  "authentication": [
-    "did:web:kapilvgit.github.io#owner"
-  ],
-  "assertionMethod": [
-    "did:web:kapilvgit.github.io#owner"
-  ]
+  "authentication": "did:web:kapilvgit.github.io#owner",
+  "assertionMethod": "did:web:kapilvgit.github.io#owner"
 }
