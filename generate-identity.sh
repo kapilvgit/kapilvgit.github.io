@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# See https://mhrsntrk.com/blog/create-and-publish-your-own-did-web
+
 if [ -z "$1" ]; then
   echo "Specify identity"
   exit 1
