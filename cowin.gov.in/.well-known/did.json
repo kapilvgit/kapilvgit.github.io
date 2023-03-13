@@ -1,1 +1,27 @@
-{ "@context": [ "https://www.w3.org/ns/did/v1", { "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018", "publicKeyJwk": { "@id": "https://w3id.org/security#publicKeyJwk", "@type": "@json" } } ], "id": "did:web:kapilvgit.github.io/cowin.gov.in", "verificationMethod": [ { "id": "did:web:kapilvgit.github.io/cowin.gov.in#owner", "type": "Ed25519VerificationKey2018", "controller": "did:web:kapilvgit.github.io/cowin.gov.in", "publicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "eRu7LEn5Sjp1gMio3pJbKDJtGgkUcVJ0GgwSeUFRvXQ" } } ], "authentication": "did:web:kapilvgit.github.io/cowin.gov.in#owner", "assertionMethod": "did:web:kapilvgit.github.io/cowin.gov.in#owner" }
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:cowin.gov.in",
+  "verificationMethod": [
+    {
+      "id": "did:web:cowin.gov.in#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:cowin.gov.in",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "F4XCFd_Z-DC7gG_o6y1cxy6bRJcR_VXEnQ_2MTD4MMY"
+      }
+    }
+  ],
+  "authentication": "did:web:cowin.gov.in#owner",
+  "assertionMethod": "did:web:cowin.gov.in#owner"
+}

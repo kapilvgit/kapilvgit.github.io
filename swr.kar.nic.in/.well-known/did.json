@@ -1,1 +1,27 @@
-{ "@context": [ "https://www.w3.org/ns/did/v1", { "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018", "publicKeyJwk": { "@id": "https://w3id.org/security#publicKeyJwk", "@type": "@json" } } ], "id": "did:web:kapilvgit.github.io/swr.kar.nic.in", "verificationMethod": [ { "id": "did:web:kapilvgit.github.io/swr.kar.nic.in#owner", "type": "Ed25519VerificationKey2018", "controller": "did:web:kapilvgit.github.io/swr.kar.nic.in", "publicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "cz5L9KdxeWoju8bTmMVkQLHdfECQk7VmOmbAYURotCI" } } ], "authentication": "did:web:kapilvgit.github.io/swr.kar.nic.in#owner", "assertionMethod": "did:web:kapilvgit.github.io/swr.kar.nic.in#owner" }
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:swr.kar.nic.in",
+  "verificationMethod": [
+    {
+      "id": "did:web:swr.kar.nic.in#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:swr.kar.nic.in",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "Y9GqYGFwxgx7cSyZBGk4-AyakHRTlbT7nILE3QXuTUs"
+      }
+    }
+  ],
+  "authentication": "did:web:swr.kar.nic.in#owner",
+  "assertionMethod": "did:web:swr.kar.nic.in#owner"
+}

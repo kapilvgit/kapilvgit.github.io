@@ -1,1 +1,27 @@
-{ "@context": [ "https://www.w3.org/ns/did/v1", { "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018", "publicKeyJwk": { "@id": "https://w3id.org/security#publicKeyJwk", "@type": "@json" } } ], "id": "did:web:kapilvgit.github.io/icmr.gov.in", "verificationMethod": [ { "id": "did:web:kapilvgit.github.io/icmr.gov.in#owner", "type": "Ed25519VerificationKey2018", "controller": "did:web:kapilvgit.github.io/icmr.gov.in", "publicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "4Jxp_0fcdPNmszDl_C6c-5vJZoS_p7T_WG99SqKUFbU" } } ], "authentication": "did:web:kapilvgit.github.io/icmr.gov.in#owner", "assertionMethod": "did:web:kapilvgit.github.io/icmr.gov.in#owner" }
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:icmr.gov.in",
+  "verificationMethod": [
+    {
+      "id": "did:web:icmr.gov.in#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:icmr.gov.in",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "8vuLh-CBq6o8qG6ZFO2L3ojPLHT5UXq_fml3Pc5vN7c"
+      }
+    }
+  ],
+  "authentication": "did:web:icmr.gov.in#owner",
+  "assertionMethod": "did:web:icmr.gov.in#owner"
+}

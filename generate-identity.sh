@@ -8,12 +8,12 @@ if [ -z "$1" ]; then
 fi
 export ID=$1
 
-didkit generate-ed25519-key > issuer_key.jwk
-did=$(didkit key-to-did key -k issuer_key.jwk)
+didkit generate-ed25519-key > $ID/did.jwk
+did=$(didkit key-to-did key -k $ID/did.jwk)
 printf 'DID: %s\n\n' "$did"
-didkit did-resolve `didkit key-to-did key -k issuer_key.jwk` > issuer_key_did_doc.json
+didkit did-resolve `didkit key-to-did key -k $ID/did.jwk` > $ID/did_doc.json
 
-TMP=$(jq . issuer_key_did_doc.json)
+TMP=$(jq . $ID/did_doc.json)
 TMP=`echo $TMP | \
   jq '.id = "did:web:" + env.ID' | \
   jq '.verificationMethod[0].id = "did:web:" + env.ID + "#owner"' | \
@@ -21,4 +21,5 @@ TMP=`echo $TMP | \
   jq '.authentication = "did:web:" + env.ID + "#owner"' | \
   jq '.assertionMethod = "did:web:" + env.ID + "#owner"'` 
 
-echo $TMP > did.json
+rm $ID/did_doc.json
+echo $TMP | jq '.' > $ID/.well-known/did.json
