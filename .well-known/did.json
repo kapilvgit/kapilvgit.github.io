@@ -1,20 +1,17 @@
 {
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
+  "@context": "https://www.w3.org/ns/did/v1",
   "id": "did:web:kapilvgit.github.io",
   "assertionMethod": [
     {
-      "id": "did:web:kapilvgit.github.io#25a9f5f3520ce39417c524a3aa91204b846be33ed73f623e4a36fe7b90aa4d9b",
+      "id": "did:web:kapilvgit.github.io#7f79374596006fdb3d1783d0694929e1af6b8ddeb1dea5e4ca30b47887d33355",
       "type": "JsonWebKey2020",
       "controller": "did:web:kapilvgit.github.io",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "bB0RPB4AiecNz_8hKBDvXNemr5e7XC-_sasddshHA9o=",
-        "y": "P6zT7-ufHb3N8BKHnh73Ijnu5ZYl9mG9yB0Lmug3UYM=",
-        "kid": "25a9f5f3520ce39417c524a3aa91204b846be33ed73f623e4a36fe7b90aa4d9b",
+        "x": "cJ_KfTwUgwClVtAcwLhfi6C8bs8h4Sl4PpJbOXSkAKQ=",
+        "y": "iHcLv0QtfkkkrQDwjDpA40sKjJiNjBHSKPye8yIwRLE=",
+        "kid": "7f79374596006fdb3d1783d0694929e1af6b8ddeb1dea5e4ca30b47887d33355",
         "alg": "ES256"
       }
     }
